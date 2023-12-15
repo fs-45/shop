@@ -2,8 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import TreeTable from 'vue-table-with-tree-grid'
 
-
+//注册table-tree组件
+Vue.component('tree-table', TreeTable)
 //导入element ui
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
