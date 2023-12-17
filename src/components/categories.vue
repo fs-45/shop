@@ -311,5 +311,14 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style  lang="less">
+.el-breadcrumb {
+  margin: 5px;
+  span {
+    color: white !important;
+  }
+}
+.el-card {
+  margin-top: 20px;
+}
 </style>
